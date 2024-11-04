@@ -29,7 +29,7 @@ app.post('/api/questions', async (req, res) => {
 
     const response = await axios.get(url, {
       headers: {
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer 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`,
         Accept: 'application/vnd.github.v3.raw',
       },
     });
